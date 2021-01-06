@@ -1,0 +1,31 @@
+
+service  KVService {
+ 
+  void create(1:string name);
+  
+  void usetargetbyid(1:i64 target);
+  
+  void usetargetbyname(1:string name);
+  
+  bool contains(1:string key);
+  
+  void add(1:string key, 2:string value);
+  
+  void remove(1:string key);
+  
+  void change(1:string key, 2:string value);
+  
+  string get(1:string key);
+ 
+  string show();
+
+  string showAllTableName();
+ 
+  void write();
+  
+  void read();
+  
+  string command();
+   
+}
+

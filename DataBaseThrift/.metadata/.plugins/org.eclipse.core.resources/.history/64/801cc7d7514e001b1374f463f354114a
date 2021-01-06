@@ -1,0 +1,31 @@
+
+service  KVService {
+ 
+  void create(1:string name),
+  
+  void use(2:int target),
+  
+  void use(1:string name),
+  
+  bool contains(3:string key),
+  
+  void add(3:string key, 4:string value),
+  
+  void delete(3:string key),
+  
+  void change(3:string key, 4:string value),
+  
+  string get(3:string key),
+  
+  string show(),
+  
+  string showAllTableName(),
+  
+  void write(),
+  
+  void read(),
+  
+  string command(),
+   
+}
+

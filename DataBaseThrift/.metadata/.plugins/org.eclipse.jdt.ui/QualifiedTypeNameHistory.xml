@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.AbstractSet"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="service.socket"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.net.UnknownHostException"/>
+<fullyQualifiedTypeName name="java.rmi.UnknownHostException"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.net.ServerSocket"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.DataInputStream"/>
+<fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+<fullyQualifiedTypeName name="org.apache.thrift.TProcessor"/>
+<fullyQualifiedTypeName name="org.apache.thrift.transport.TServerSocket"/>
+<fullyQualifiedTypeName name="org.apache.thrift.server.TServer"/>
+<fullyQualifiedTypeName name="org.apache.thrift.server.TSimpleServer"/>
+<fullyQualifiedTypeName name="common.HelloWorldImpl"/>
+<fullyQualifiedTypeName name="org.apache.thrift.transport.TTransport"/>
+<fullyQualifiedTypeName name="org.apache.thrift.transport.TSocket"/>
+<fullyQualifiedTypeName name="org.apache.thrift.protocol.TProtocol"/>
+<fullyQualifiedTypeName name="org.apache.thrift.protocol.TBinaryProtocol"/>
+<fullyQualifiedTypeName name="org.apache.thrift.transport.TTransportException"/>
+<fullyQualifiedTypeName name="org.apache.thrift.TException"/>
+<fullyQualifiedTypeName name="thrift.HelloWorldService"/>
+<fullyQualifiedTypeName name="thrift.KVService"/>
+<fullyQualifiedTypeName name="common.KVServiceImpl"/>
+<fullyQualifiedTypeName name="org.apache.thrift.server.TThreadPoolServer"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+</qualifiedTypeNameHistroy>

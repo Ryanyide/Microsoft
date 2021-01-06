@@ -1,0 +1,13 @@
+package common;
+
+import org.apache.thrift.TException;
+import thrift.KVService;
+
+public class KVServiceImpl implements KVService.Iface {
+ 
+	public String sayHello(String username) throws TException {
+		return "Hi," + username
+				+ " welcome to KV-Service ";
+	}
+ 
+}

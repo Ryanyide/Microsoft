@@ -1,0 +1,32 @@
+namespace java service
+
+service  KVService {
+ 
+  void create(1:string name),
+  
+  void use(1:int target),
+  
+  void use(1:string name),
+  
+  bool contains(1:string key),
+  
+  void add(1:string key, 2:string value),
+  
+  void delete(1:string key),
+  
+  void change(1:string key, 2:string value),
+  
+  string get(1:string key),
+  
+  string show(),
+  
+  string showAllTableName(),
+  
+  void write(),
+  
+  void read(),
+  
+  string command(),
+   
+}
+

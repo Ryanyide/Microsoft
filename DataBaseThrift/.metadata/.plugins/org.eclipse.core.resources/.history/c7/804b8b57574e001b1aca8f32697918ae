@@ -1,0 +1,95 @@
+package common;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.thrift.TException;
+import thrift.KVService;
+
+public class KVServiceImpl implements KVService.Iface {
+	
+	private Map<String, String>[] tables = new HashMap[100];//最多创建100个表
+	private String[] tableName = new String[100];
+	private int num = 0; //实际表数量
+	private int target; //当前操作的表的索引
+	//创建表
+	public void create(String name) throws TException {
+		tables[num] = new HashMap<String, String>();
+		tableName[num] = name;
+		target = num;
+		num++;
+	}
+
+	@Override
+	public void usetargetbyid(long target) throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void usetargetbyname(String name) throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean contains(String key) throws TException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void add(String key, String value) throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void remove(String key) throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void change(String key, String value) throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String get(String key) throws TException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String show() throws TException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String showAllTableName() throws TException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void write() throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void read() throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String command() throws TException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+ 
+}

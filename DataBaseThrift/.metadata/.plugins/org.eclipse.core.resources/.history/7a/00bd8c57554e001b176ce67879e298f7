@@ -1,0 +1,13 @@
+package common;
+
+import org.apache.thrift.TException;
+import thrift.HelloWorldService;
+
+public class HelloWorldImpl implements HelloWorldService.Iface {
+ 
+	public String sayHello(String username) throws TException {
+		return "Hi," + username
+				+ " welcome to KV-Service ";
+	}
+ 
+}

@@ -1,0 +1,85 @@
+package common;
+
+import org.apache.thrift.TException;
+import thrift.KVService;
+
+public class KVServiceImpl implements KVService.Iface {
+ 
+	public void create(String name) throws TException {
+		return "Hi," + username
+				+ " welcome to KV-Service ";
+	}
+
+	@Override
+	public void usetargetbyid(long target) throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void usetargetbyname(String name) throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean contains(String key) throws TException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void add(String key, String value) throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void remove(String key) throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void change(String key, String value) throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String get(String key) throws TException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String show() throws TException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String showAllTableName() throws TException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void write() throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void read() throws TException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String command() throws TException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+ 
+}
